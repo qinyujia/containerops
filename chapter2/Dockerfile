@@ -26,7 +26,7 @@ RUN /usr/sbin/sshd -D &
 
 ADD ./ /workspace
 
-expose 3000
-expose 22
+EXPOSE 3000
+EXPOSE 22
 
-CMD ['node','/workspace/lib/demo_server.js']
+CMD ["node","/workspace/lib/demo_server.js"]

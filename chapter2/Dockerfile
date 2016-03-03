@@ -24,7 +24,7 @@ RUN adduser --quiet jenkins &&\
 RUN /usr/sbin/sshd -D &
 
 
-ADD . /workspace
+ADD ./ /workspace
 
 expose 3000
 expose 22

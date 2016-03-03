@@ -29,4 +29,4 @@ ADD ./ /workspace
 EXPOSE 3000
 EXPOSE 22
 
-CMD ["node","/workspace/lib/demo_server.js"]
+ENTRYPOINT ["node","/workspace/lib/demo_server.js"]

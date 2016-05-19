@@ -21,12 +21,4 @@ RUN apt-get update &&\
 RUN adduser --quiet jenkins &&\
     echo "jenkins:jenkins" | chpasswd
 
-RUN /usr/sbin/sshd -D &
-
-
-ADD ./ /workspace
-
-EXPOSE 3000
-EXPOSE 22
-
-ENTRYPOINT ["node","/workspace/lib/demo_server.js"]
+CMD ["/usr/sbin/sshd", "-D"]

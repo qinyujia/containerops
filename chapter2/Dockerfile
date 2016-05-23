@@ -1,6 +1,7 @@
 FROM node:5.7.1-slim
 MAINTAINER Ringtail  <zhongwei.lzw@alibaba-inc.com>
 
+#
 # Install and configure a basic SSH server
 # 安装并配置SSH server，这个的作用是为了为后文的jenkins集成使用
 #RUN apt-get update &&\

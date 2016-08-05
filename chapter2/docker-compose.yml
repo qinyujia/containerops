@@ -1,8 +1,8 @@
 express:
-image: 'registry.aliyuncs.com/qinyujia-test/nodejs-demo'
-expose:
-    - '22'
-    - '3000'
-restart: always
-labels:
-    aliyun.routing.port_3000: express
+    image: 'registry.aliyuncs.com/qinyujia-test/nodejs-demo'
+    expose:
+        - '22'
+        - '3000'
+    restart: always
+    labels:
+        aliyun.routing.port_3000: express

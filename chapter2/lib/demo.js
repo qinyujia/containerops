@@ -9,5 +9,5 @@
 'use strict';
 
 exports.awesome = function() {
-  return 'awesome,qinyujia';
+  return 'awesome,qinyujia,again and again';
 };

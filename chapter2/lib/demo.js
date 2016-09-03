@@ -9,5 +9,5 @@
 'use strict';
 
 exports.awesome = function() {
-  return 'awesome,qinyujia! 2016.09';
+  return 'awesome,qinyujia! 2016.10';
 };

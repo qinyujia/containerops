@@ -1,4 +1,4 @@
-express:
+express-v2:
     image: 'registry.aliyuncs.com/qinyujia-test/nodejs-demo'
     expose:
         - '22'
